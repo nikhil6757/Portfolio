@@ -1,0 +1,95 @@
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+@media only screen and (max-width: 850px) {
+    /* html{
+        width: 135%;
+    } */
+    .header{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navbar{
+        flex-direction: column;
+        margin: 30px 0;
+    }
+    .navbar a{
+        margin: 20px 0;
+        justify-content: center;
+    }
+    .home{
+        /* width: 115%; */
+        margin-top: 60px;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .home-content{
+        margin: 0 0 0 150px;
+        width: 100%;
+        text-align: center;
+    }
+    .home .image{
+        justify-content: center;
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+        align-items: center;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        /* height: 100px; */
+        opacity: 0;
+    }
+    .burger{
+        display: block;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .about-text{
+        margin-right: 100px;
+        width: 100%;
+        margin-top: -300px;
+        text-align: center;
+    }
+    .about-img{
+        opacity: 0;
+    }
+    #skills{
+        /* width: 115%; */
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .sec{
+        flex-direction: column;
+    }
+    .sub-title1{
+        text-align: center;
+    }
+    .container1{
+        margin: 300px 0;
+    }
+    .row{
+        align-items: center;
+        margin: 30px 10px;
+    }
+    .last-text{
+        opacity: 0;
+    }
+
+
+    
+}
